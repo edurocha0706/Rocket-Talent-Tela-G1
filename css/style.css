@@ -1,0 +1,100 @@
+@font-face{
+    font-family: 'segoeUI-regular';
+    src: url(../fonts/SegoeUI/SegoeUI.ttf);
+}
+@font-face{
+    font-family: 'segoeUI-semibold';
+    src: url(../fonts/SegoeUI/segoeUI-semibold.ttf);
+}
+
+.header, .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .footer{
+    border: black solid;
+}
+.main-gridContainer{
+    width: 1920px;
+    margin: 0;
+    
+}
+.main-gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+    grid-template-areas: 
+                    "header header"
+                    "div1   div1"
+                    "div2   div3"
+                    "div2   div4"
+                    "div5   div6"
+                    "div7   div8"
+                    "div9   div10"
+                    "div11  div11"
+                    "footer footer";
+}
+.header{
+    grid-area: header;
+    background-color: red;
+    width: 1920px;
+    height: 123px;
+}
+.div1{
+    grid-area: div1;
+    width: 1920px;
+    text-align: center;
+}
+.div2{
+    grid-area: div2;
+    width: 794px;
+    height: 836px;
+}
+.div3{
+    grid-area: div3;
+    width: 834px;
+    height: 320px;
+}
+.div4{
+    grid-area: div4;
+    width: 834px;
+    height: 320px;
+}
+.div5{
+    grid-area: div5;
+    width: 794px;
+    height: 393px;
+}
+.div6{
+    grid-area: div6;
+    width: 794px;
+    height: 393px;
+}
+.div7{
+    grid-area: div7;
+    width: 794px;
+    height: 393px;
+}
+.div8{
+    grid-area: div8;
+    width: 794px;
+    height: 393px;
+}
+.div9{
+    grid-area: div9;
+    width: 794px;
+    height: 393px;
+}
+.div10{
+    grid-area: div10;
+    width: 794px;
+    height: 393px;
+}
+.div11{
+    grid-area: div11;
+    width: 1920px;
+    height: 393px;
+}
+.footer{
+    grid-area: footer;
+    background-color: red;
+    width: 1920px;
+    height: 193.28px;
+}
