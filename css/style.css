@@ -7,19 +7,13 @@
     src: url(../fonts/SegoeUI/segoeUI-semibold.ttf);
 }
 
-.header, .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .footer{
+.div11, .footer{
     border: black solid;
 }
-.main-gridContainer{
-    width: 1920px;
-    margin: 0;
-    
-}
+
 .main-gridContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-
     grid-template-areas: 
                     "header header"
                     "div1   div1"
@@ -31,70 +25,258 @@
                     "div11  div11"
                     "footer footer";
 }
+
+
 .header{
     grid-area: header;
-    background-color: red;
-    width: 1920px;
+    background: #c4170c no-repeat;
+    width: 100%;
     height: 123px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.header div p{
+    font-family: segoeUI-semibold;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 33px;
+    letter-spacing: 0px;
+    margin-left: 157px;
+    margin-top: 44px;
+}
+
+.header-menu{
+    width: 46px;
+    height: 46px;
+    margin-top: 39px;
+    margin-left: 102px;
+    position: absolute;
+   
+}
+
+.header-logo{
+    width: 101px;
+    height: 68px;
+    margin-top: 30.14px;
+    
+}
+
+.header input{
+    width: 269px;
+    height: 46px;
+    background: #8b0000 no-repeat;
+    background-size: 30px 33px;
+    background-image: url(../img/iconfinder_search_126577.png);
+    background-position-x: 14.72px;
+    background-position-y: 5px;
+    font-family: segoeUI-semibold;
+    font-size: 25px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    line-height: 33px;
+    letter-spacing: 0px;
+    padding: 0px 0px 0px 57px;
+    margin-top: 39px;
+    margin-right: 94px;
+
+}
+
+.header input::placeholder{
+    color: #ffffff;
+}
+
 .div1{
     grid-area: div1;
-    width: 1920px;
+    width: 100%;
     text-align: center;
+    
 }
+.div1 h1{
+    color: #000000;
+    font-family: segoeUI-regular;
+    font-size: 35px;
+    line-break: 47px;
+    margin-top: 45px;
+    margin-bottom: 61px;
+}
+
 .div2{
     grid-area: div2;
     width: 794px;
     height: 836px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    margin-left: 102px;
 }
+.div2 p:nth-of-type(1){
+    color: #8b0000;
+    font-family: segoeUI-semibold;
+    font-size: 40px;
+    line-break: 33px;
+    letter-spacing: 0px;
+    margin-top: 306px;
+    margin-left: 32px;
+    margin-bottom: 0px;
+}
+.div2 p:nth-of-type(2){
+    color: #8b0000;
+    font-family: segoeUI-regular;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 39px;
+    margin-top: 7px;
+}
+
 .div3{
     grid-area: div3;
     width: 834px;
     height: 320px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    margin-left: 95px;
 }
+.div3-image, .div4-image{
+    width: 834px;
+    height: 320px;
+}
+.div3 p, .div4 p{
+    font-family: segoeUI-semibold;
+    font-size: 25px;
+    color: #000000;
+    margin-top: 3px;
+}
+
 .div4{
     grid-area: div4;
     width: 834px;
     height: 320px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    margin-left: 95px;
+    margin-top: 110px;
 }
+
 .div5{
     grid-area: div5;
     width: 794px;
     height: 393px;
+    border: 1px solid #707070;
+    margin-left: 102px;
+    margin-top: 150px;
 }
+.div5-image, .div7-image, .div9-image{
+
+}
+
 .div6{
     grid-area: div6;
     width: 794px;
     height: 393px;
+    margin-top: 160px;
+    margin-left: 52px;
 }
+
+h2{
+    margin: 5px 0px 5px 0px;
+    font-family: segoeUI-semibold;
+    font-size: 25px;
+    color: #000000;
+}
+.div6 a, .div8 a, .div10 a{
+    color: #c4170c;
+    font-family: segoeUI-semibold;
+    font-size: 35px;
+    line-break: 47px;
+    text-decoration: none;
+
+}
+.div6 p:nth-of-type(1){
+    font-family: segoeUI-regular;
+    color: #000000;
+    font-size: 27px;
+}
+.div8 p:nth-of-type(1){
+    font-family: segoeUI-regular;
+    color: #000000;
+    font-size: 27px;
+}
+.div10 p:nth-of-type(1){
+    font-family: segoeUI-regular;
+    color: #000000;
+    font-size: 27px;
+}
+
+.div6 p:nth-of-type(2){
+    font-family: segoeUI-regular;
+    color: #746565;
+    font-size: 27px;
+}
+.div8 p:nth-of-type(2){
+    font-family: segoeUI-regular;
+    color: #746565;
+    font-size: 27px;
+}
+.div10 p:nth-of-type(2){
+    font-family: segoeUI-regular;
+    color: #746565;
+    font-size: 27px;
+}
+
 .div7{
     grid-area: div7;
     width: 794px;
     height: 393px;
+    border: 1px solid #707070;
+    margin-left: 102px;
+    margin-top: 160px;
 }
 .div8{
     grid-area: div8;
     width: 794px;
     height: 393px;
+    margin-top: 160px;
+    margin-left: 52px;
+    
 }
 .div9{
     grid-area: div9;
     width: 794px;
     height: 393px;
+    border: 1px solid #707070;
+    margin-left: 102px;
+    margin-top: 160px;
 }
 .div10{
     grid-area: div10;
     width: 794px;
     height: 393px;
+    margin-top: 160px;
+    margin-left: 52px;
 }
 .div11{
     grid-area: div11;
     width: 1920px;
     height: 393px;
 }
+
+.div11 a{
+
+}
+
 .footer{
     grid-area: footer;
     background-color: red;
     width: 1920px;
     height: 193.28px;
+}
+.footer-image{
+
+}
+.footer p:nth-of-type(1){
+
+}
+.footer p:nth-of-type(2){
+
 }
