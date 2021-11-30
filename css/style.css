@@ -78,7 +78,6 @@
     padding: 0px 0px 0px 57px;
     margin-top: 39px;
     margin-right: 94px;
-
 }
 .header input::placeholder{
     color: #ffffff;
@@ -98,7 +97,7 @@
 }
 .div2{
     grid-area: div2;
-    width: 90%;
+    width: 100%;
     height: 95%;
     border: 1px solid #707070;
     border-radius: 4px;
@@ -110,13 +109,13 @@
     grid-area: div3;
     width: 75%;
     height: 75%;
-    margin-left: 120px;
+    margin-left: 130px;
 }
 .div4{
     grid-area: div4;
     width: 75%;
     height: 75%;
-    margin-left: 120px;
+    margin-left: 130px;
     margin-top: 40px;
 }
 .div5{
@@ -131,7 +130,7 @@
     width: 85%;
     height: 65%;
     margin-top: 160px;
-    margin-left: 52px;
+    margin-left: 102px;
 }
 .line-1{
     grid-area: line-1;
@@ -151,7 +150,7 @@
     width: 85%;
     height: 65%;
     margin-top: 80px;
-    margin-left: 52px;
+    margin-left: 102px;
 }
 .line-2{
     grid-area: line-2;
@@ -171,7 +170,7 @@
     width: 85%;
     height: 65%;
     margin-top: 80px;
-    margin-left: 52px;
+    margin-left: 102px;
 }
 .line-3{
     grid-area: line-3;
@@ -308,7 +307,7 @@ h2{
     line-break: 40px;
 }
 .footer1 p:nth-of-type(2){
-    margin-top: 153.20px;
+    margin-top: 150px;
     margin-left: 102px;
     position: absolute;
     color: #ffffff;
@@ -318,12 +317,19 @@ h2{
 }
 .footer2{
     grid-area: footer2;
+    flex-basis: auto;
     background: #8b0000 no-repeat;
     width: 100%;
-    height: 193.28px;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
+}
+.footer2-list{
+    margin-top: 147.8px;
+    padding: 0;
+}
+.footer2-list li{
+    display: inline-block;
 }
 .footer2 a{
     color: #ffffff;
@@ -331,12 +337,4 @@ h2{
     text-decoration: none;
     font-size: 25px;
     line-break: 33px;
-    margin-top: 153.28px;
-}
-.footer2 p{
-    color: #ffffff;
-    font-family: segoeUI-regular;
-    font-size: 25px;
-    line-break: 33px;
-    margin-top: 153.28px;
 }
