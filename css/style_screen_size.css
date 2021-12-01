@@ -1,0 +1,397 @@
+@media screen and (max-width: 1650px){
+    
+    .header div p{
+        font-family: segoeUI-semibold;
+        font-size: 25px;
+        color: #ffffff;
+        line-height: 33px;
+        letter-spacing: 0px;
+        margin-left: 107px;
+        margin-top: 44px;
+    }
+    .header-menu{
+        width: 46px;
+        height: 46px;
+        margin-top: 39px;
+        margin-left: 52px;
+        position: absolute;
+    }
+    .header-logo{
+        width: 101px;
+        height: 68px;
+        margin-top: 30.14px;
+        margin-left: 190px; 
+    }
+    .header input{
+        width: 269px;
+        height: 46px;
+        background: #8b0000 no-repeat;
+        background-size: 30px 33px;
+        background-image: url(../img/iconfinder_search_126577.png);
+        background-position-x: 14.72px;
+        background-position-y: 5px;
+        font-family: segoeUI-semibold;
+        font-size: 25px;
+        border: 1px solid #707070;
+        border-radius: 8px;
+        line-height: 33px;
+        padding: 0px 0px 0px 57px;
+        margin-top: 39px;
+        margin-right: 54px;
+    }
+    .div2{
+        grid-area: div2;
+        width: 100%;
+        height: 95%;
+        border: 1px solid #707070;
+        border-radius: 4px;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div3{
+        grid-area: div3;
+        width: 75%;
+        height: 75%;
+        margin-left: 80px;
+    }
+    .div4{
+        grid-area: div4;
+        width: 75%;
+        height: 75%;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .div5{
+        grid-area: div5;
+        width: 794px;
+        height: 393px;
+        margin-left: 2%;
+        margin-top: 150px;
+    }
+    .div6{
+        grid-area: div6;
+        width: 85%;
+        height: 65%;
+        margin-top: 160px;
+        margin-left: 52px;
+    }
+    .line-1{
+        grid-area: line-1;
+        width: 97%;
+        margin-top: 100px;
+        margin-left: 19px;
+    }
+    .div7{
+        grid-area: div7;
+        width: 794px;
+        height: 393px;
+        margin-left: 2%;
+        margin-top: 80px;
+    }
+    .div8{
+        grid-area: div8;
+        width: 85%;
+        height: 65%;
+        margin-top: 80px;
+        margin-left: 52px;
+    }
+    .line-2{
+        grid-area: line-2;
+        width: 97%;
+        margin-top: 100px;
+        margin-left: 19px;
+    }
+    .div9{
+        grid-area: div9;
+        width: 794px;
+        height: 393px;
+        margin-left: 2%;
+        margin-top: 80px;
+    }
+    .div10{
+        grid-area: div10;
+        width: 85%;
+        height: 65%;
+        margin-top: 80px;
+        margin-left: 52px;
+    }
+    .line-3{
+        grid-area: line-3;
+        width: 97%;
+        margin-top: 100px;
+        margin-left: 19px;
+    }
+  
+    .footer-image{
+        width: 101px;
+        height: 68px;
+        margin-top: 40.43px;
+        margin-left: 52.12px;
+        position: absolute;
+    }
+    .footer1 p:nth-of-type(1){
+        margin-top: 55.28px;
+        margin-left: 189px;
+        position: absolute;
+        color: #ffffff;
+        font-family: segoeUI-semibold;
+        font-size: 30px;
+        line-break: 40px;
+    }
+    .footer1 p:nth-of-type(2){
+        margin-top: 150px;
+        margin-left: 52px;
+        position: absolute;
+        color: #ffffff;
+        font-family: segoeUI-regular;
+        font-size: 25px;
+        line-break: 40px;
+    }
+    .footer2{
+        grid-area: footer2;
+        background: #8b0000 no-repeat;
+        width: 100%;
+    }
+    .footer2-list{
+        margin-top: 25px;
+        padding: 0;
+    }
+    .footer2-list li{
+        display: flex;
+        flex-direction:column;
+        line-height: 35px;
+    }
+    .footer2 a{
+        color: #ffffff;
+        font-family: segoeUI-regular;
+        text-decoration: none;
+        font-size: 25px;
+        text-align: right;
+        line-break: 33px;
+    }
+}
+
+@media screen and (max-width: 1650px){
+    .main-gridContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+        grid-template-areas: 
+                        "header header"
+                        "div1   div1"
+                        "div2   div2"
+                        "div2   div2"
+                        "div3   div3"
+                        "div4   div4"
+                        "div5   div5"
+                        "div6   div6"
+                        "line-1 line-1"
+                        "div7   div7"
+                        "div8   div8"
+                        "line-2 line-2"
+                        "div9   div9"
+                        "div10  div10"
+                        "line-3 line-3"
+                        "div11  div11"
+                        "footer1 footer2";
+    }
+    .header div p{
+        font-family: segoeUI-semibold;
+        font-size: 25px;
+        color: #ffffff;
+        line-height: 33px;
+        letter-spacing: 0px;
+        margin-left: 77px;
+        margin-top: 44px;
+    }
+    .header-menu{
+        width: 46px;
+        height: 46px;
+        margin-top: 39px;
+        margin-left: 22px;
+        position: absolute;
+       
+    }
+    .header-logo{
+        width: 101px;
+        height: 68px;
+        margin-top: 30.14px;
+        margin-left: 111px;
+        
+    }
+    .header input{
+        width: 190px;
+        height: 46px;
+        background: #8b0000 no-repeat;
+        background-size: 30px 33px;
+        background-image: url(../img/iconfinder_search_126577.png);
+        background-position-x: 14.72px;
+        background-position-y: 5px;
+        font-family: segoeUI-semibold;
+        font-size: 25px;
+        border: 1px solid #707070;
+        border-radius: 8px;
+        line-height: 33px;
+        letter-spacing: 0px;
+        padding: 0px 0px 0px 57px;
+        margin-top: 39px;
+        margin-right: 2%;
+    }
+    .div2{
+        grid-area: div2;
+        width: 85%;
+        height: 85%;
+        border: 1px solid #707070;
+        border-radius: 4px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div2 p:nth-of-type(1){
+        color: #8b0000;
+        font-family: segoeUI-semibold;
+        font-size: 40px;
+        line-break: 33px;
+        letter-spacing: 0px;
+        margin-top: 206px;
+        margin-left: 32px;
+        margin-bottom: 0px;
+    }
+    .div2 p:nth-of-type(2){
+        color: #8b0000;
+        font-family: segoeUI-regular;
+        font-size: 25px;
+        letter-spacing: 0px;
+        margin-left: 39px;
+        margin-top: 7px;
+        margin-bottom: 200px;
+    }
+    .div3{
+        grid-area: div3;
+        width: 85%;
+        height: 85%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .div4{
+        grid-area: div4;
+        width: 85%;
+        height: 85%;
+        margin-left: 5%;
+        margin-top: 40px;
+    }
+    .div5{
+        grid-area: div5;
+        width: 794px;
+        height: 393px;
+        margin-left: 5%;
+        margin-top: 120px;
+    }
+    .div6{
+        grid-area: div6;
+        width: 85%;
+        height: 65%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .line-1{
+        grid-area: line-1;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 5%;
+    }
+    .div7{
+        grid-area: div7;
+        width: 794px;
+        height: 393px;
+        margin-left: 5%;
+        margin-top: 80px;
+    }
+    .div8{
+        grid-area: div8;
+        width: 85%;
+        height: 65%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .line-2{
+        grid-area: line-2;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 5%;
+    }
+    .div9{
+        grid-area: div9;
+        width: 794px;
+        height: 393px;
+        margin-left: 5%;
+        margin-top: 80px;
+    }
+    .div5-image, .div7-image, .div9-image{
+        width: 92%;
+        height: 92%;
+        border: 1px solid #707070;
+    }
+    .div10{
+        grid-area: div10;
+        width: 85%;
+        height: 65%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .line-3{
+        grid-area: line-3;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 5%;
+    }
+    .footer-image{
+        width: 101px;
+        height: 68px;
+        margin-top: 40.43px;
+        margin-left: 52.12px;
+        position: absolute;
+    }
+    .footer1 p:nth-of-type(1){
+        margin-top: 55.28px;
+        margin-left: 189px;
+        position: absolute;
+        color: #ffffff;
+        font-family: segoeUI-semibold;
+        font-size: 30px;
+        line-break: 40px;
+    }
+    .footer1 p:nth-of-type(2){
+        margin-top: 150px;
+        margin-left: 52px;
+        position: absolute;
+        color: #ffffff;
+        font-family: segoeUI-regular;
+        font-size: 20px;
+        line-break: 40px;
+    }
+    .footer2{
+        grid-area: footer2;
+        background: #8b0000 no-repeat;
+        width: 100%;
+        display: flex;
+        justify-content:flex-end;
+    }
+    .footer2-list{
+        margin-top: 25px;
+        margin-right: 52.12px;
+    }
+    .footer2-list li{
+        display: flex;
+        flex-direction:column;
+        line-height: 25px;
+    }
+    .footer2 a{
+        color: #ffffff;
+        font-family: segoeUI-regular;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: right;
+        line-break: 33px;
+    }
+}
