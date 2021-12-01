@@ -294,14 +294,14 @@
         grid-area: div6;
         width: 85%;
         height: 65%;
-        margin-top: 80px;
+        margin-top: 30px;
         margin-left: 5%;
     }
     .line-1{
         grid-area: line-1;
-        width: 97%;
-        margin-top: 100px;
-        margin-left: 19px;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 5%;
     }
     .div7{
         grid-area: div7;
@@ -314,14 +314,14 @@
         grid-area: div8;
         width: 85%;
         height: 65%;
-        margin-top: 80px;
+        margin-top: 30px;
         margin-left: 5%;
     }
     .line-2{
         grid-area: line-2;
-        width: 97%;
-        margin-top: 100px;
-        margin-left: 19px;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 5%;
     }
     .div9{
         grid-area: div9;
@@ -334,14 +334,14 @@
         grid-area: div10;
         width: 85%;
         height: 65%;
-        margin-top: 80px;
+        margin-top: 30px;
         margin-left: 5%;
     }
     .line-3{
         grid-area: line-3;
-        width: 97%;
-        margin-top: 100px;
-        margin-left: 19px;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 5%;
     }
   
     .div5-image, .div7-image, .div9-image{
