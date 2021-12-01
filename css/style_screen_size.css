@@ -379,11 +379,12 @@
         grid-area: footer2;
         background: #8b0000 no-repeat;
         width: 100%;
+        display: flex;
+        justify-content:flex-end;
     }
     .footer2-list{
         margin-top: 25px;
-        margin-right: 0;
-        padding: 0;
+        margin-right: 52.12px;
     }
     .footer2-list li{
         display: flex;
